@@ -1,12 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Japonese Kitchen</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <style>
+        .btn-secondary,
+        .btn-secondary:hover,
+        .btn-secondary:focus {
+            color: #333;
+            text-shadow: none;
+        }
+
+        body {
+            text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+            box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+        }
+
+        .cover-container {
+            max-width: 42em;
+        }
+
+        .nav-masthead .nav-link {
+            padding: .25rem 0;
+            font-weight: 700;
+            color: rgba(255, 255, 255, .5);
+            background-color: transparent;
+            border-bottom: .25rem solid transparent;
+        }
+
+        .nav-masthead .nav-link:hover,
+        .nav-masthead .nav-link:focus {
+            border-bottom-color: rgba(255, 255, 255, .25);
+        }
+
+        .nav-masthead .nav-link+.nav-link {
+            margin-left: 1rem;
+        }
+
+        .nav-masthead .active {
+            color: #fff;
+            border-bottom-color: #fff;
+        }
+
+        img {
+            height: 200px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Japonese Kitchen</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link" href="./ingredients.html">Ingredients</a>
+                    <a class="nav-link" href="./location.html">Where to go!</a>
+                </nav>
+            </div>
+        </header>
+
+        <div class="py-5 ">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                    <div class="col mt-4">
+                        <div class="card h-100">
+                            <img src="./images/sushi-sashimi-1296x728-header.webp" alt="">
+
+                            <div class="card-body bg-dark">
+                                <h3 class="card-text">
+                                    Sushi Heads
+                                </h3>
+                                <p>
+                                    Address: 205b Philip Ln, London N15 4HL
+                                </p>
+                                <div class="">
+                                    <strong>Phone:</strong> 020 8801 3111
+                                </div>
+                                <div class="p-4">
+                                    <div class="btn-group">
+                                        <a href="https://www.google.com/search?q=sushi%20locations%20london&rlz=1C1CHBF_en-GBGB1002GB1002&oq=sushi+&aqs=chrome.1.69i59l2j0i512j46i175i199i512j0i512j69i60l3.2942j0j7&sourceid=chrome&ie=UTF-8&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u1!2m2!1m1!1e1!1m4!1u1!2m2!1m1!1e2!2m1!1e2!2m1!1e1!2m1!1e3,lf:1&tbm=lcl&sxsrf=ALiCzsYa5BX00veHhTrBXcydHjvdU94i8Q:1654688864614&rflfq=1&num=10&rldimm=17877644258127379419&lqi=ChZzdXNoaSBsb2NhdGlvbnMgbG9uZG9uSLGSqcvTq4CACFoUEAAYABgBIgxzdXNoaSBsb25kb26SARBzdXNoaV9yZXN0YXVyYW50mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJSYUhObU0zTkJSUkFCqgEXCggvbS8wNzAzMBABKgkiBXN1c2hpKAA&phdesc=Djsp2UaD1Yk&ved=2ahUKEwjlvvSv5J34AhUoQkEAHZZrAV8QvS56BAgOEAE&sa=X&rlst=f#rlfi=hd:;si:17877644258127379419,l,ChZzdXNoaSBsb2NhdGlvbnMgbG9uZG9uSLGSqcvTq4CACFoUEAAYABgBIgxzdXNoaSBsb25kb26SARBzdXNoaV9yZXN0YXVyYW50mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJSYUhObU0zTkJSUkFCqgEXCggvbS8wNzAzMBABKgkiBXN1c2hpKAA,y,Djsp2UaD1Yk;mv:[[51.5956359,-0.056604400000000006],[51.5062115,-0.1615892]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u1!2m2!1m1!1e1!1m4!1u1!2m2!1m1!1e2!2m1!1e2!2m1!1e1!2m1!1e3,lf:1"
+                                            type="button" class="btn btn-sm btn-outline-secondary">Visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col mt-4">
+                        <div class="card h-100">
+                            <img src="./images/hero-1068x712.jpg" alt="">
+
+                            <div class="card-body bg-dark">
+                                <h3 class="card-text">
+                                    SUSHISAMBA London
+                                </h3>
+                                <p>
+                                    Address: Heron Tower, Bishopsgate, London EC2N 4AY
+                                </p>
+                                <div class="">
+                                    <strong>Phone:</strong> 020 3640 7330
+                                </div>
+                                <div class="p-4">
+                                    <div class="btn-group">
+                                        <a href="https://www.google.com/search?q=japanese%20london%20locations&rlz=1C1CHBF_en-GBGB1002GB1002&oq=japonses+london+locations&aqs=chrome..69i57j33i10i160l3.7321j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:9&tbm=lcl&sxsrf=ALiCzsZ5_wUEOEBORYxzsFwZXCQx5L1pwQ:1654689754757&rflfq=1&num=10&rldimm=1175450100370259747&lqi=ChlqYXBhbmVzZSBsb25kb24gbG9jYXRpb25zSKjH5eu7gYCACFoXEAAYABgBIg9qYXBhbmVzZSBsb25kb26SARNqYXBhbmVzZV9yZXN0YXVyYW50qgEQEAEqDCIIamFwYW5lc2UoAA&phdesc=DRwAlnt4QO0&ved=2ahUKEwj8wK7Y5534AhUXSMAKHRVzAKMQvS56BAgNEAE&sa=X&rlst=f#rlfi=hd:;si:1175450100370259747,l,ChlqYXBhbmVzZSBsb25kb24gbG9jYXRpb25zSKjH5eu7gYCACFoXEAAYABgBIg9qYXBhbmVzZSBsb25kb26SARNqYXBhbmVzZV9yZXN0YXVyYW50qgEQEAEqDCIIamFwYW5lc2UoAA,y,DRwAlnt4QO0;mv:[[51.5935242,-0.0760346],[51.4957004,-0.16805779999999998]]"
+                                            type="button" class="btn btn-sm btn-outline-secondary">Visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col mt-4">
+                        <div class="card h-100">
+                            <img src="./images/aqua-kyoto.jpg" alt="">
+
+                            <div class="card-body bg-dark">
+                                <h3 class="card-text">
+                                    ROKA Charlotte Street
+                                </h3>
+                                <p>
+                                    Address: 37 Charlotte St., London W1T 1RR
+                                </p>
+                                <div class="">
+                                    <strong>Phone:</strong> 020 7580 6464
+                                </div>
+                                <div class="p-4">
+                                    <div class="btn-group">
+                                        <a href="https://www.google.com/search?q=japanese%20london%20locations&rlz=1C1CHBF_en-GBGB1002GB1002&oq=japonses+london+locations&aqs=chrome..69i57j33i10i160l3.7321j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:9&tbm=lcl&sxsrf=ALiCzsZ5_wUEOEBORYxzsFwZXCQx5L1pwQ:1654689754757&rflfq=1&num=10&rldimm=1175450100370259747&lqi=ChlqYXBhbmVzZSBsb25kb24gbG9jYXRpb25zSKjH5eu7gYCACFoXEAAYABgBIg9qYXBhbmVzZSBsb25kb26SARNqYXBhbmVzZV9yZXN0YXVyYW50qgEQEAEqDCIIamFwYW5lc2UoAA&phdesc=DRwAlnt4QO0&ved=2ahUKEwj8wK7Y5534AhUXSMAKHRVzAKMQvS56BAgNEAE&sa=X&rlst=f#rlfi=hd:;si:9758376026929083999,l,ChlqYXBhbmVzZSBsb25kb24gbG9jYXRpb25zSITI58PlgICACFoXEAAYABgBIg9qYXBhbmVzZSBsb25kb26SARNqYXBhbmVzZV9yZXN0YXVyYW50qgEQEAEqDCIIamFwYW5lc2UoAA,y,QHiMU51icmc;mv:[[51.5935242,-0.0760346],[51.4957004,-0.16805779999999998]]"
+                                            type="button" class="btn btn-sm btn-outline-secondary">Visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col mt-4">
+                        <div class="card h-100">
+                            <img src="./images/image.jpg" alt="">
+
+                            <div class="card-body bg-dark">
+                                <h3 class="card-text">
+                                    Taro - Soho
+                                </h3>
+                                <p>
+                                    Address: 61 Brewer St, London W1F 9UW
+                                </p>
+                                <div class="">
+                                    <strong>Phone:</strong> 020 7734 5826
+                                </div>
+                                <div class="p-4">
+                                    <div class="btn-group">
+                                        <a href="https://www.google.com/search?q=japanese%20london%20locations&rlz=1C1CHBF_en-GBGB1002GB1002&oq=japonses+london+locations&aqs=chrome..69i57j33i10i160l3.7321j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:9&tbm=lcl&sxsrf=ALiCzsZ5_wUEOEBORYxzsFwZXCQx5L1pwQ:1654689754757&rflfq=1&num=10&rldimm=1175450100370259747&lqi=ChlqYXBhbmVzZSBsb25kb24gbG9jYXRpb25zSKjH5eu7gYCACFoXEAAYABgBIg9qYXBhbmVzZSBsb25kb26SARNqYXBhbmVzZV9yZXN0YXVyYW50qgEQEAEqDCIIamFwYW5lc2UoAA&phdesc=DRwAlnt4QO0&ved=2ahUKEwj8wK7Y5534AhUXSMAKHRVzAKMQvS56BAgNEAE&sa=X&rlst=f#rlfi=hd:;si:9610791630324264479,l,ChlqYXBhbmVzZSBsb25kb24gbG9jYXRpb25zSLyBk9PlgICACFoXEAAYABgBIg9qYXBhbmVzZSBsb25kb26SARNqYXBhbmVzZV9yZXN0YXVyYW50qgEQEAEqDCIIamFwYW5lc2UoAA,y,I7Gifz1874Q;mv:[[51.5935242,-0.0760346],[51.4957004,-0.16805779999999998]]"
+                                            type="button" class="btn btn-sm btn-outline-secondary">Visit</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-auto text-white-50">
+            <p>Repo on <a href="https://github.com/allanstocco/fp_day3_bootstrap" class="text-white">Japonese Kitchen</a>, by <a
+                    href="#" class="text-white">Allan, Mee-Shee, Taro</a>.</p>
+        </footer>
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
